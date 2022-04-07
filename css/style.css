@@ -1,0 +1,169 @@
+
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+    
+}
+
+#container h1{
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #003e09;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+.conn{
+    text-align: center;
+}
+
+.conne{
+    text-align: center;
+    text-decoration: none;
+    color:#00aeff;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.conne:hover{
+    text-align: center;
+    text-decoration: none;
+    color:#ff0000;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:#f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#333333;
+    margin:0;
+    padding:0;
+}
+
+.btn{
+    text-align: center;
+    background-color:#333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.divbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.liste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.liste a{
+    text-align: center;
+    background-color:#333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+
+.liste a:hover{
+    text-align: center;
+    background-color:#b0b0b0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333333;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.ee{
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.eee{
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    text-decoration: none;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a{
+    margin: 20px;
+
+}
